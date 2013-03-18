@@ -38,3 +38,4 @@ attribute "percona-install/plugins_nagios",
   :description => "The directory in which the nagios plugins will be installed",
   :type => "string"
 
+depends 'apt'
